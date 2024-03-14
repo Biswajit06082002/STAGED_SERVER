@@ -3,9 +3,9 @@ const mongoose = require('mongoose');
 const bcrypt = require("bcryptjs");
 const app = express();
 const cors = require('cors');
-const UsersModel = require("./Models/users.js");
-const RecordModel = require("./Models/records.js");
-const MoviesModel = require("./Models/movies.js");
+const UsersModel = require("./users.js");
+const RecordModel = require("./records.js");
+const MoviesModel = require("./movies.js");
 app.use(express.json());
 require('dotenv').config();
 
